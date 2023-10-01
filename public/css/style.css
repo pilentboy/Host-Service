@@ -767,6 +767,10 @@ video {
   align-self: center;
 }
 
+.overflow-x-hidden {
+  overflow-x: hidden;
+}
+
 .border-0 {
   border-width: 0px;
 }
