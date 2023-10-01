@@ -9,7 +9,9 @@
 
 
 @layer components{
-
+    .btn{
+        @apply border-2 py-4 px-6 hover:bg-purple  duration-500 hover:border-purple
+    }
 }
 
 @layer utilities{
