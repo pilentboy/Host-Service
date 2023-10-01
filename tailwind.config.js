@@ -2,6 +2,15 @@
 module.exports = {
   content: ["./*.html"],
   theme: {
+    container:{
+      screens: {
+        sm: '600px',
+        md: '728px',
+        lg: '984px',
+        xl: '1150px',
+        '2xl': '1496px',
+      },
+    },
     extend: {
       colors:{
         "primary":"#171420",

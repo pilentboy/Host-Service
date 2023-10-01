@@ -1,78 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Host Service</title>
 
+    <!-- fownawesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
     <!-- tailwind output css file -->
-    <link rel="stylesheet" href="/public/css/style.css">
+    <link rel="stylesheet" href="/public/css/style.css" />
+  </head>
 
-</head>
-
-<body>
+  <body>
     <!-- HEADER -->
-    <header id="header" class="text-white  bg-primary capitalize">
+    <header id="header" class="text-white bg-primary capitalize">
+      <!--nav-->
+      <nav
+        id="nav"
+        class="container mx-auto flex items-center justify-between bg-red py-4"
+      >
+        <!-- wbesite logo/name -->
+        <span id="logo">Host Beta</span>
 
-        <!--nav-->
-        <nav id="nav" class="container mx-auto   flex items-center justify-between bg-red py-4 ">
+        <!-- nav links-->
+        <ul class="flex items-center space-x-8">
+          <li class="hover:text-blue duration-200 cursor-pointer">Home</li>
+          <li class="hover:text-blue duration-200 cursor-pointer">about</li>
+          <li class="hover:text-blue duration-200 cursor-pointer">services</li>
+          <li class="hover:text-blue duration-200 cursor-pointer">pricing</li>
+          <li class="hover:text-blue duration-200 cursor-pointer">
+            testimonials
+          </li>
+        </ul>
 
-            <!-- wbesite logo/name -->
-            <span id="logo">Host Beta</span>
+        <!-- Contact Us-->
+        <a href="#" class="btn">Contact Us</a>
+      </nav>
 
-            <!-- nav links-->
-            <ul class="flex items-center space-x-8">
-                <li class="hover:text-blue duration-200 cursor-pointer">Home</li>
-                <li class="hover:text-blue duration-200 cursor-pointer">about</li>
-                <li class="hover:text-blue duration-200 cursor-pointer">services</li>
-                <li class="hover:text-blue duration-200 cursor-pointer">pricing</li>
-                <li class="hover:text-blue duration-200 cursor-pointer">testimonials</li>
-            </ul>
+      <!-- header welcome -->
+      <div
+        class="container md:h-[560px]  pt-2  items-end mx-auto flex justify-between"
+      >
+        <!-- left -->
+        <div class="md:w-2/4 self-center flex flex-col space-y-4">
+          <span class="uppercase text-blue font-medium text-base"
+            >Welcome to HOST beta</span
+          >
 
-            <!-- Contact Us-->
-            <a href="#" class="btn" >Contact Us</a>
+          <h1 class="text-6xl font-medium">
+            smart company<br />
+            with perfect <br />
+            web space
+          </h1>
 
-        </nav>
+          <p class="leading-relaxed text-gray-400 text-sm md:w-3/5">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, modi
+            molestiae at quas ut vitae reprehenderit?
+          </p>
 
-        <!-- header welcome -->
-        <div class="container mx-auto">
-            <!-- left -->
-            <div class=" md:w-2/5 flex flex-col space-y-4 ">
-                <span class="uppercase text-blue font-medium   text-base  ">Welcome to HOST beta</span>
+          <div class="flex space-x-4">
+            <a href="#" class="btn bg-purple border-0  border-purple">Get Started</a>
+            <a href="#" class="btn">hosting plans</a>
+          </div>
 
-                <h1 class="text-5xl font-medium   ">
-                    smart company<br> with perfect <br> web space
-                </h1>
-
-                <p class="leading-relaxed text-gray-400 text-sm md:w-3/5">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, modi molestiae at quas ut vitae reprehenderit?
-                </p>
-
-                <div class="flex space-x-4 ">
-                    <a href="#" class="btn bg-purple border-purple ">Get Started</a>
-                    <a href="#" class="btn">hosting plans</a>
-                </div>
-
-                <div class="flex space-x-4 ">
-
-                    <div class="flex flex-col text-center">
-                        <h2 class="text-4xl font-medium">8<span class="   text-3xl">00</span></h2>
-                        <span class="leading-relaxed text-gray-400  text-xs    ">
-                            positive reviews
-                        </span>
-                    </div>
-
-                    <div class="flex flex-col text-center">
-                        <h2 class="text-4xl font-medium">55<span class="   text-3xl  ">0</span></h2>
-                        <span class="leading-relaxed text-gray-400  text-xs ">
-                            active hosting
-                        </span>       
-                    </div>
-                </div>
-
+          <div class="flex space-x-4">
+            <div class="flex flex-col text-center">
+              <h2 class="text-4xl font-medium">
+                8<span class="text-3xl">00</span>
+              </h2>
+              <span class="leading-relaxed text-gray-400 text-xs">
+                positive reviews
+              </span>
             </div>
+
+            <div class="flex flex-col text-center">
+              <h2 class="text-4xl font-medium">
+                55<span class="text-3xl">0</span>
+              </h2>
+              <span class="leading-relaxed text-gray-400 text-xs">
+                active hosting
+              </span>
+            </div>
+          </div>
         </div>
+
+        <!--right-->
+        <div class="md:w-2/4 relative  h-full   ">
+
+          <div class="absolute  h-3/5 flex left-[10%] bottom-[30%] items-center ">    
+            <img src="./assets/pictures/laptoppng.parspng.com-7.png" alt="" class="ms-10" />
+          </div>
+
+          <div class="flex flex-row-reverse items-end  absolute bottom-[7%]  left-0 ">
+
+            <div class="bg-purple flex flex-col ">
+
+                <div class="w-[230px] h-[70px] flex flex-col items-center justify-center  ">
+                    <span class="font-bold">
+                        <i class="fa fa-check me-2"></i> premium SSL</span>
+                    <p class="text-sm text-center ">
+                       Lorem ipsum dolor sit amet consectetur adipisicing.
+                    </p>
+                </div >
+
+                <div class="w-[230px] h-[70px] flex flex-col items-center justify-center">
+                    <span class="font-bold "><i class="fa fa-phone me-2"></i>24/7 support</span>
+                    <p class="text-sm text-center ">
+                        Lorem ipsum dolor sit amet consectetur adipisicing.
+                     </p>
+                </div >
+                
+            </div>
+
+            <div class="bg-light-purple w-[230px] h-[100px]  ">
+                <div class="flex flex-col items-center justify-center h-full ">
+                    <span class="font-bold"><i class="fa  fa-wifi me-2"></i>powerfull server</span>
+
+                    <p class="text-sm text-center ">
+                        Lorem ipsum dolor sit amet consectetur adipisicing.
+                     </p>
+                </div >
+            </div>
+
+          </div>
+        </div>
+
+
+
+      </div>
     </header>
-</body>
+  </body>
 </html>
