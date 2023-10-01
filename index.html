@@ -6,11 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Host Service</title>
 
-    <!-- css -->
+    <!-- tailwind output css file -->
     <link rel="stylesheet" href="/public/css/style.css">
 
 </head>
+
 <body>
-   
+    <!-- HEADER -->
+    <header id="header" class="text-white  bg-primary capitalize">
+        <!--nav-->
+        <nav id="nav" class="container mx-auto   flex items-center justify-between bg-red py-4 ">
+
+            <!-- wbesite logo/name -->
+            <span id="logo">Host Beta</span>
+
+            <!-- nav links-->
+            <ul class="flex items-center space-x-8">
+                <li class="hover:text-blue duration-200 cursor-pointer">Home</li>
+                <li class="hover:text-blue duration-200 cursor-pointer">about</li>
+                <li class="hover:text-blue duration-200 cursor-pointer">services</li>
+                <li class="hover:text-blue duration-200 cursor-pointer">pricing</li>
+                <li class="hover:text-blue duration-200 cursor-pointer">testimonials</li>
+            </ul>
+
+            <!-- Contact Us-->
+            <a href="#" class="border-2 py-4 px-6 hover:bg-blue  duration-500 hover:border-blue" >Contact Us</a>
+
+        </nav>
+    </header>
 </body>
 </html>
