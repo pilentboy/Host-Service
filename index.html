@@ -12,6 +12,9 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
     />
 
+    <!-- jquery-->
+    <script src="./public/script/jquery-3.7.0.min.js"></script>
+
     <!-- tailwind output css file -->
     <link rel="stylesheet" href="/public/css/style.css" />
   </head>
@@ -22,13 +25,13 @@
       <!--nav-->
       <nav
         id="nav"
-        class="w-4/5  fixed top-0 left-[50%] -translate-x-[50%] z-[999]   hidden md:flex items-center justify-between bg-red py-4"
+        class="w-screen px-2  items-center justify-between   bg-red pt-4 pb-1 fixed top-0 left-[50%] -translate-x-[50%] z-[999] md:px-0 md:w-4/5 md:flex  "
       >
         <!-- wbesite logo/name -->
-        <span id="logo">Host Beta</span>
+        <span id="logo" class="hidden md:flex">Host Beta</span>
 
         <!-- nav links-->
-        <ul class="flex items-center space-x-8">
+        <ul class="flex items-center justify-center space-x-8">
           <li><a href="#home" class="hover:text-blue duration-200 cursor-pointer">Home</a></li>
           <li><a href="#about" class="hover:text-blue duration-200 cursor-pointer">about</a></li>
           <li><a href="#services" class="hover:text-blue duration-200 cursor-pointer">services</a></li>
@@ -39,7 +42,7 @@
         </ul>
 
         <!-- Contact Us-->
-        <a href="#" class="btn">Contact Us</a>
+        <a href="#" class="btn hidden md:flex">Contact Us</a>
       </nav>
 
       <!-- header welcome -->
@@ -278,5 +281,7 @@
 
 
     </main>
+
+    <script src="./public/script/nav.js"></script>
   </body>
 </html>
