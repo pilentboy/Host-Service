@@ -7,13 +7,16 @@
     <title>Host Service</title>
 
     <!-- fownawesome cdn -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
 
     <!-- tailwind output css file -->
     <link rel="stylesheet" href="/public/css/style.css" />
   </head>
 
-  <body class=" overflow-x-hidden">
+  <body class="overflow-x-hidden">
     <!-- HEADER -->
     <header id="header" class="text-white bg-primary capitalize">
       <!--nav-->
@@ -41,27 +44,28 @@
 
       <!-- header welcome -->
       <div
-        class="container  items-center md:items-end mx-auto flex flex-col md:flex-row h-full justify-between md:h-[560px] xl:h-screen pb-0 xl:pb-12"
+        class="container items-center md:items-end mx-auto flex flex-col md:flex-row h-full justify-between md:h-[560px] xl:h-screen pb-0 xl:pb-12"
       >
         <!-- left -->
-        <div class="w-screen px-6  md:w-2/4 self-center flex flex-col space-y-4">
+        <div class="w-screen px-6 md:w-2/4 self-center flex flex-col space-y-4">
           <span class="uppercase text-blue font-medium text-base"
             >Welcome to HOST beta</span
           >
 
-          <h1 class=" text-4xl md:text-5xl xl:text-6xl font-medium">
+          <h1 class="text-4xl md:text-5xl xl:text-6xl font-medium">
             smart company<br />
             with perfect <br />
             web space
           </h1>
 
-          <p class="leading-relaxed text-gray-400 text-sm ">
+          <p class="leading-relaxed text-gray-400 text-sm">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, modi
-            
           </p>
 
           <div class="flex space-x-4">
-            <a href="#" class="btn bg-purple border-white  hover:bg-transparent ">Get Started</a>
+            <a href="#" class="btn bg-purple border-white hover:bg-transparent"
+              >Get Started</a
+            >
 
             <a href="#" class="btn">hosting plans</a>
           </div>
@@ -88,72 +92,151 @@
         </div>
 
         <!--right-->
-        <div class="w-screen  md:flex relative sm:my-[80px]  h-full  md:my-0 md:w-2/4">
-
-          <div class="md:absolute mr-10  sm:h-2/6 md:h-3/5 justify-center md:justify-start items-center  flex left-[10%] bottom-[30%] xl:bottom-[180px]  ">    
-            <img src="./assets/pictures/laptoppng.parspng.com-7.png" alt="" class="ms-10 " />
+        <div
+          class="w-screen md:flex relative sm:my-[80px] h-full md:my-0 md:w-2/4"
+        >
+          <div
+            class="md:absolute mr-10 sm:h-2/6 md:h-3/5 justify-center md:justify-start items-center flex left-[10%] bottom-[30%] xl:bottom-[180px]"
+          >
+            <img
+              src="./assets/pictures/laptoppng.parspng.com-7.png"
+              alt=""
+              class="ms-10"
+            />
           </div>
 
-          <div class="hidden xl:flex  flex-row-reverse items-end  absolute bottom-[7%]  left-0 ">
+          <div
+            class="hidden xl:flex flex-row-reverse items-end absolute bottom-[7%] left-0"
+          >
+            <div class="bg-purple flex flex-col">
+              <div
+                class="w-[230px] h-[70px] flex flex-col items-center justify-center"
+              >
+                <span class="font-bold">
+                  <i class="fa fa-check me-2"></i> premium SSL</span
+                >
+                <p class="text-sm text-center">
+                  Lorem ipsum dolor sit amet consectetur adipisicing.
+                </p>
+              </div>
 
-            <div class="bg-purple flex flex-col ">
-
-                <div class="w-[230px] h-[70px] flex flex-col items-center justify-center  ">
-                    <span class="font-bold">
-                        <i class="fa fa-check me-2"></i> premium SSL</span>
-                    <p class="text-sm text-center ">
-                       Lorem ipsum dolor sit amet consectetur adipisicing.
-                    </p>
-                </div >
-
-                <div class="w-[230px] h-[70px] flex flex-col items-center justify-center">
-                    <span class="font-bold "><i class="fa fa-phone me-2"></i>24/7 support</span>
-                    <p class="text-sm text-center ">
-                        Lorem ipsum dolor sit amet consectetur adipisicing.
-                     </p>
-                </div >
-                
+              <div
+                class="w-[230px] h-[70px] flex flex-col items-center justify-center"
+              >
+                <span class="font-bold"
+                  ><i class="fa fa-phone me-2"></i>24/7 support</span
+                >
+                <p class="text-sm text-center">
+                  Lorem ipsum dolor sit amet consectetur adipisicing.
+                </p>
+              </div>
             </div>
 
-            <div class="bg-light-purple w-[230px] h-[100px]  ">
-                <div class="flex flex-col items-center justify-center h-full ">
-                    <span class="font-bold"><i class="fa  fa-wifi me-2"></i>powerfull server</span>
+            <div class="bg-light-purple w-[230px] h-[100px]">
+              <div class="flex flex-col items-center justify-center h-full">
+                <span class="font-bold"
+                  ><i class="fa fa-wifi me-2"></i>powerfull server</span
+                >
 
-                    <p class="text-sm text-center ">
-                        Lorem ipsum dolor sit amet consectetur adipisicing.
-                     </p>
-                </div >
+                <p class="text-sm text-center">
+                  Lorem ipsum dolor sit amet consectetur adipisicing.
+                </p>
+              </div>
             </div>
-
           </div>
         </div>
-
-
-
       </div>
-
     </header>
 
+    <!-- main -->
     <main id="main">
-        <section id="trusted-company" class="w-screen  h-max md:min-h-[220px] bg-secondary capitalize ">
-            <div class="container mx-auto text-center flex flex-col justify-around   h-full" >
+      <!-- trusted company section -->
+      <section
+        id="trusted-company"
+        class="w-screen h-max md:min-h-[220px] bg-secondary capitalize"
+      >
+        <div
+          class="container mx-auto text-center flex flex-col justify-around h-full"
+        >
+          <h1 class="text-4xl text-white mt-11">
+            Trusted by 2500+ company worldwide
+          </h1>
 
-               <h1 class=" text-4xl text-white   mt-11" >
-                Trusted by 2500+ company worldwide
-               </h1>
+          <!-- comapny logo-->
+          <div
+            class="flex flex-row flex-wrap w-full justify-center items-center"
+          >
+            <img
+              src="./assets/pictures/logo 1.png"
+              alt=""
+              class="w-24 md:w-40 grayscale"
+            />
+            <img
+              src="./assets/pictures/logo 2.png"
+              alt=""
+              class="w-24 md:w-40 grayscale"
+            />
+            <img
+              src="./assets/pictures/logo 1.png"
+              alt=""
+              class="w-24 md:w-40 grayscale"
+            />
+            <img
+              src="./assets/pictures/logo 2.png"
+              alt=""
+              class="w-24 md:w-40 grayscale"
+            />
+            <img
+              src="./assets/pictures/logo 1.png"
+              alt=""
+              class="w-24 md:w-40 grayscale"
+            />
+            <img
+              src="./assets/pictures/logo 2.png"
+              alt=""
+              class="w-24 md:w-40 grayscale"
+            />
+          </div>
+        </div>
+      </section>
 
-               <!-- comapny logo-->
-               <div class="flex flex-row flex-wrap   w-full justify-center items-center">
-                <img src="./assets/pictures/logo 1.png" alt="" class="w-24  md:w-40 grayscale">
-                <img src="./assets/pictures/logo 2.png" alt="" class="w-24  md:w-40  grayscale">
-                <img src="./assets/pictures/logo 1.png" alt="" class=" w-24  md:w-40 grayscale">
-                <img src="./assets/pictures/logo 2.png" alt="" class=" w-24  md:w-40  grayscale">
-                <img src="./assets/pictures/logo 1.png" alt="" class=" w-24  md:w-40 grayscale">
-                <img src="./assets/pictures/logo 2.png" alt="" class=" w-24  md:w-40  grayscale">
-               </div>
-             
+      <!-- about the company -->
+      <section id="about" class="bg-primary flex items-center h-screen">
+
+        <div class="container flex justify-between mx-auto bg-blu2e capitalize">
+          <!-- section image -->
+          <div class="relative  flex items-center justify-center w-screen md:w-1/2 "> 
+
+            <img src="./assets/pictures/man jumping.png" alt="section image" class="z-40">
+
+            <div class="absolute bg-light-purple w-[350px] h-[350px] top-[10%] left-50%  rounded-full "></div>
+
+            <div class="absolute z-40 w-48 h-16 top-[35%] left-[10%] bg-primary font-bold flex items-center justify-around">
+              <div class="bg-white w-10 h-10 rounded-full flex items-center justify-center">
+                <i class="fa fa-database  text-light-purple"></i>
+              </div>
+
+              <span class="text-white">
+                200 GB+ storage
+              </span>
             </div>
-        </section>
+
+            <div class="absolute flex z-[40] w-48 h-16 bottom-[20%] right-[10%] bg-primary font-bold  items-center justify-around">
+              <div class="bg-white w-10 h-10 rounded-full flex items-center justify-center">
+                <i class="fa fa-hdd  text-light-purple"></i>
+              </div>
+              <span class="text-white">
+                200 GB+ storage
+              </span>
+            </div>
+
+          </div>
+
+
+        </div>
+      </section>
+
+
     </main>
   </body>
 </html>
