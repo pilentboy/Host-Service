@@ -1,5 +1,5 @@
 $(document).ready(function () {
-   console.log("test")
+   console.info("nav script : ok ")
     $(window).scroll(function () { 
      // add border bottom to nav when scoll top is over 28 
        if( $(window).scrollTop() > 28){
