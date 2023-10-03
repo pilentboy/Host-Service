@@ -11,6 +11,10 @@
     .btn{
         @apply border-2 py-4 px-6 hover:bg-purple  duration-500 hover:border-purple
     }
+
+    .card{
+        @apply flex flex-col space-y-2 bg-secondary w-card h-64 justify-center pl-8   mt-4
+    }
 }
 
 @layer utilities{

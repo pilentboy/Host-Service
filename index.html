@@ -19,26 +19,50 @@
     <link rel="stylesheet" href="./public/css/style.css" />
   </head>
 
-  <body class="overflow-x-hidden bg-primary ">
+  <body class="overflow-x-hidden bg-primary">
     <!-- HEADER -->
     <header id="home" class="text-white bg-primary capitalize">
       <!--nav-->
       <nav
         id="nav"
-        class="w-screen px-2  items-center justify-between   pt-4 pb-1 fixed top-0 left-[50%] -translate-x-[50%] z-[999] md:px-6 md:w-[85%] md:flex    "
+        class="w-screen px-2 items-center justify-between pt-4 pb-1 fixed top-0 left-[50%] -translate-x-[50%] z-[999] md:px-6 md:w-[85%] md:flex"
       >
         <!-- wbesite logo/name -->
         <span id="logo" class="hidden md:flex">Host Beta</span>
 
         <!-- nav links-->
         <ul class="flex items-center justify-center space-x-8">
-          <li><a href="#home" class="hover:text-blue duration-200 cursor-pointer">Home</a></li>
-          <li><a href="#about" class="hover:text-blue duration-200 cursor-pointer">about</a></li>
-          <li><a href="#services" class="hover:text-blue duration-200 cursor-pointer">services</a></li>
-          <li><a href="#pricing" class="hover:text-blue duration-200 cursor-pointer">pricing</a></li>
-          <li><a href="#testimonials" class="hover:text-blue duration-200 cursor-pointer">testimonials</a></li>
-
-        
+          <li>
+            <a href="#home" class="hover:text-blue duration-200 cursor-pointer"
+              >Home</a
+            >
+          </li>
+          <li>
+            <a href="#about" class="hover:text-blue duration-200 cursor-pointer"
+              >about</a
+            >
+          </li>
+          <li>
+            <a
+              href="#services"
+              class="hover:text-blue duration-200 cursor-pointer"
+              >services</a
+            >
+          </li>
+          <li>
+            <a
+              href="#pricing"
+              class="hover:text-blue duration-200 cursor-pointer"
+              >pricing</a
+            >
+          </li>
+          <li>
+            <a
+              href="#testimonials"
+              class="hover:text-blue duration-200 cursor-pointer"
+              >testimonials</a
+            >
+          </li>
         </ul>
 
         <!-- Contact Us-->
@@ -47,10 +71,12 @@
 
       <!-- header welcome -->
       <div
-        class="container pt-20 xl:pt-60   pb-0  items-center justify-between mx-auto flex flex-col h-full  md:flex-row  md:h-[630px] xl:h-screen xl:pb-12 md:items-start "
+        class="container pt-20 xl:pt-60 pb-0 items-center justify-between mx-auto flex flex-col h-full md:flex-row md:h-[630px] xl:h-screen xl:pb-12 md:items-start"
       >
         <!-- left -->
-        <div class="w-screen mb-0 px-6 self-center flex flex-col space-y-4 xl:mb-10  md:w-2/4">
+        <div
+          class="w-screen mb-0 px-6 self-center flex flex-col space-y-4 xl:mb-10 md:w-2/4"
+        >
           <span class="uppercase text-blue font-medium text-base"
             >Welcome to HOST beta</span
           >
@@ -96,7 +122,7 @@
 
         <!--right-->
         <div
-          class="w-screen mt-0 md:flex relative sm:my-[80px] h-full md:my-0 md:w-2/4 xl:mt-8 "
+          class="w-screen mt-0 md:flex relative sm:my-[80px] h-full md:my-0 md:w-2/4 xl:mt-8"
         >
           <div
             class="md:absolute mr-10 sm:h-2/6 md:h-3/5 justify-center md:justify-start items-center flex left-[10%] bottom-[30%] xl:bottom-[180px]"
@@ -104,7 +130,7 @@
             <img
               src="./assets/pictures/laptoppng.parspng.com-72.png"
               alt=""
-              class="ms-10 h-[400px]   "
+              class="ms-10 h-[400px]"
             />
           </div>
 
@@ -148,7 +174,6 @@
             </div>
           </div>
         </div>
-
       </div>
     </header>
 
@@ -206,80 +231,243 @@
 
       <!-- about the company -->
       <section id="about" class="bg-primary flex items-center jus min-h-screen">
-
-        <div class="container flex flex-col items-center py-8 xl:items-start xl:flex-row justify-between mx-auto capitalize px-3 md:px-0 md:my-0 ">
-
+        <div
+          class="container flex flex-col items-center py-8 xl:items-start xl:flex-row justify-between mx-auto capitalize px-3 md:px-0 md:my-0"
+        >
           <!-- section image -->
-          <div class="relative  flex items-center justify-center  w-screen md:w-1/2 "> 
+          <div
+            class="relative flex items-center justify-center w-screen md:w-1/2"
+          >
+            <img
+              src="./assets/pictures/man jumping.png"
+              alt="section image"
+              class="z-40"
+            />
 
-            <img src="./assets/pictures/man jumping.png" alt="section image" class="z-40">
+            <div
+              id="test"
+              class="absolute bg-light-purple w-[350px] h-[350px] top-[10%] left-50% rounded-full"
+            ></div>
 
-            <div class="absolute bg-light-purple w-[350px] h-[350px] top-[10%] left-50%  rounded-full "></div>
-
-            <div class="absolute z-40 w-48 h-16 top-[35%] left-[10%] bg-primary font-bold flex items-center justify-around">
-              <div class="bg-white w-10 h-10 rounded-full flex items-center justify-center">
-                <i class="fa fa-database  text-light-purple"></i>
+            <div
+              class="absolute z-40 w-48 h-16 top-[35%] left-[10%] bg-primary font-bold flex items-center justify-around"
+            >
+              <div
+                class="bg-white w-10 h-10 rounded-full flex items-center justify-center"
+              >
+                <i class="fa fa-database text-light-purple"></i>
               </div>
 
-              <span class="text-white">
-                200 GB+ storage
-              </span>
+              <span class="text-white"> 200 GB+ storage </span>
             </div>
 
-            <div class="absolute flex z-[40] w-48 h-16 bottom-[20%] right-[10%] bg-primary font-bold  items-center justify-around">
-              <div class="bg-white w-10 h-10 rounded-full flex items-center justify-center">
-                <i class="fa fa-hdd  text-light-purple"></i>
+            <div
+              class="absolute flex z-[40] w-48 h-16 bottom-[20%] right-[10%] bg-primary font-bold items-center justify-around"
+            >
+              <div
+                class="bg-white w-10 h-10 rounded-full flex items-center justify-center"
+              >
+                <i class="fa fa-hdd text-light-purple"></i>
               </div>
-              <span class="text-white">
-                200 GB+ storage
-              </span>
+              <span class="text-white"> 200 GB+ storage </span>
             </div>
-
+            
           </div>
 
           <!-- about us text -->
-          <div class="w-screen h-full flex flex-col mx-auto justify-between mt-16 xl:mt-0  xl:items-start xl:w-1/2 ">
-
+          <div
+            class="w-screen h-full flex flex-col mx-auto justify-between mt-16 xl:mt-0 xl:items-start xl:w-1/2"
+          >
             <!-- main text-->
-            <div class="flex flex-col  space-y-4">
-              <span class="text-blue  font-medium">
-                ABOUT HOST BETA
-              </span>
-              <h1 class=" font-medium text-white text-3xl md:text-5xl">
-                The perfect digital<br>connection
+            <div class="flex flex-col space-y-4">
+              <span class="text-blue font-medium"> ABOUT HOST BETA </span>
+              <h1 class="font-medium text-white text-3xl md:text-5xl">
+                The perfect digital<br />connection
               </h1>
               <p class="leading-relaxed text-gray-400 w-4/5">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus, ducimus!
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Repellendus, ducimus!
               </p>
             </div>
 
             <!-- about titltes-->
-            <div class="flex  flex-col mt-6 space-y-12">
-
-              <div class="flex space-x-14 text-center text-purple text-lg font-bold">
+            <div class="flex flex-col mt-6 space-y-12">
+              <div
+                class="flex space-x-14 text-center text-purple text-lg font-bold"
+              >
                 <span>faster process</span>
                 <span>faster delivery</span>
               </div>
 
-              <div class="flex space-x-14 text-center text-purple text-lg font-bold">
+              <div
+                class="flex space-x-14 text-center text-purple text-lg font-bold"
+              >
                 <span>faster access</span>
                 <span>24/ full support</span>
               </div>
 
               <div class="flex">
-                <a href="#" class="btn bg-purple  border-white hover:bg-transparent text-white"
-                >dicvoer more</a>
-            
+                <a
+                  href="#"
+                  class="btn bg-purple border-white hover:bg-transparent text-white"
+                  >dicvoer more</a
+                >
               </div>
-             
-
             </div>
           </div>
-
         </div>
       </section>
 
+      <!-- company services -->
+      <section
+        id="services"
+        class="bg-primary w-screen min-h-screen py-32 capitalize"
+      >
 
+
+        <div class="container mx-auto flex flex-col items-center space-y-6 h-full">
+          <span class="uppercase text-blue font-medium text-base"
+            >OUR SERVICES</span
+          >
+          <h1 class="text-white text-center font-medium  text-3xl md:text-5xl">
+            discover luxury in web<br>hosting
+          </h1>
+
+          <!-- service cards --> 
+          <div class="flex flex-wrap px-4   items-center  justify-center w-full  md:justify-between  md:px-0 ">
+
+
+            <div class="card ">
+
+              <!-- card icon -->
+              <div
+              class="bg-white w-10 h-10 rounded-full flex items-center  justify-center"
+            >
+              <i class="fa fa-check-square    text-light-purple"></i>
+            </div>
+
+            <!-- card title-->
+            <h1 class=" font-medium text-white text-2xl">
+              Wordpress hosting
+            </h1>
+
+            <!-- card description-->
+            <p class="leading-relaxed text-gray-500   text-base w-4/5">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, quisquam?
+            </p>
+            </div>
+
+
+            <div class="card">
+
+              <!-- card icon -->
+              <div
+              class="bg-white w-10 h-10 rounded-full flex items-center  justify-center"
+            >
+              <i class="fa fa-database text-light-purple"></i>
+            </div>
+
+            <!-- card title-->
+            <h1 class=" font-medium text-white text-2xl">
+              Wordpress hosting
+            </h1>
+
+            <!-- card description-->
+            <p class="leading-relaxed text-gray-500   text-base w-4/5">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, quisquam?
+            </p>
+            </div>
+
+           
+            <div class="card ">
+
+              <!-- card icon -->
+              <div
+              class="bg-white w-10 h-10 rounded-full flex items-center  justify-center"
+            >
+              <i class="fa fa-check-square    text-light-purple"></i>
+            </div>
+
+            <!-- card title-->
+            <h1 class=" font-medium text-white text-2xl">
+              Wordpress hosting
+            </h1>
+
+            <!-- card description-->
+            <p class="leading-relaxed text-gray-500   text-base w-4/5">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, quisquam?
+            </p>
+            </div>
+
+
+            <div class="card">
+
+              <!-- card icon -->
+              <div
+              class="bg-white w-10 h-10 rounded-full flex items-center  justify-center"
+            >
+              <i class="fa fa-database text-light-purple"></i>
+            </div>
+
+            <!-- card title-->
+            <h1 class=" font-medium text-white text-2xl">
+              Wordpress hosting
+            </h1>
+
+            <!-- card description-->
+            <p class="leading-relaxed text-gray-500   text-base w-4/5">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, quisquam?
+            </p>
+            </div>
+
+           
+            <div class="card ">
+
+              <!-- card icon -->
+              <div
+              class="bg-white w-10 h-10 rounded-full flex items-center  justify-center"
+            >
+              <i class="fa fa-check-square    text-light-purple"></i>
+            </div>
+
+            <!-- card title-->
+            <h1 class=" font-medium text-white text-2xl">
+              Wordpress hosting
+            </h1>
+
+            <!-- card description-->
+            <p class="leading-relaxed text-gray-500   text-base w-4/5">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, quisquam?
+            </p>
+            </div>
+
+
+            <div class="card">
+
+              <!-- card icon -->
+              <div
+              class="bg-white w-10 h-10 rounded-full flex items-center  justify-center"
+            >
+              <i class="fa fa-database text-light-purple"></i>
+            </div>
+
+            <!-- card title-->
+            <h1 class=" font-medium text-white text-2xl">
+              Wordpress hosting
+            </h1>
+
+            <!-- card description-->
+            <p class="leading-relaxed text-gray-500   text-base w-4/5">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, quisquam?
+            </p>
+            </div>
+        
+       
+          </div>
+
+
+          
+      </section>
     </main>
 
     <script src="./public/script/nav.js"></script>

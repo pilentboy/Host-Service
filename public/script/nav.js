@@ -1,5 +1,5 @@
 $(document).ready(function () {
-     console.log("test")
+   console.log("test")
     $(window).scroll(function () { 
      // add border bottom to nav when scoll top is over 28 
        if( $(window).scrollTop() > 28){
@@ -15,7 +15,17 @@ $(document).ready(function () {
             $("#nav").removeClass("bg-gray-800");
             $("#nav").removeClass("opacity-80");
        }
+
+       var offset = $("#test").offset();
+       var top = offset.top;
+      
+      if(parseInt(top) <= 100){
+          console.log("t")
+      }
        
     });
 
+
+
+    
 });

@@ -20,6 +20,9 @@ module.exports = {
         "purple":"#5f65f4",
         "blue":"#2a4af4",
         "orange":"#df8600"
+      },
+      width:{
+        "card":"320px"
       }
     },
   },
