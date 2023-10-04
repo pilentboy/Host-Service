@@ -22,7 +22,11 @@ module.exports = {
         "orange":"#df8600"
       },
       width:{
-        "card":"320px"
+        "card":"320px",
+        "large-card":"285px"
+      },
+      height:{
+        "large-card":"500px"
       }
     },
   },

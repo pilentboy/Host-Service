@@ -6,15 +6,24 @@
 @layer base{
    
 }
-
+/* py-4 px-6 */
 
 @layer components{
     .btn{
-        @apply border-2 py-4 px-6 hover:bg-purple  duration-500 hover:border-purple
+        @apply border-2  hover:bg-purple  duration-500 hover:border-purple
+        w-[140px] h-[60px] flex items-center justify-center
     }
 
     .card{
         @apply flex flex-col space-y-2 bg-secondary w-card h-64 justify-center pl-8   mt-4
+    }
+
+    .lg-card{
+        @apply flex bg-white flex-col px-4 py-3 justify-between w-large-card rounded-xl h-large-card mt-3 xl:mt-0 md:w-card  xl:w-1/4
+    }
+
+    .buy-btn{
+        @apply rounded-lg text-white font-medium bg-blue text-center py-4 px-10 duration-200 hover:bg-primary
     }
 }
 
