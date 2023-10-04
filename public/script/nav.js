@@ -16,12 +16,6 @@ $(document).ready(function () {
             $("#nav").removeClass("opacity-80");
        }
 
-       var offset = $("#test").offset();
-       var top = offset.top;
-      
-      if(parseInt(top) <= 100){
-          console.log("t")
-      }
        
     });
 
