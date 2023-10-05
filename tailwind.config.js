@@ -26,7 +26,8 @@ module.exports = {
         "large-card":"285px"
       },
       height:{
-        "large-card":"500px"
+        "large-card":"500px",
+        "customer-card":"300px"
       }
     },
   },
