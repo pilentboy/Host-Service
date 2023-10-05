@@ -30,6 +30,10 @@
     .customer-card{
         @apply flex flex-col h-customer-card  w-card mx-0 bg-secondary px-4 py-6 justify-between space-y-2 md:space-y-0 mt-4 xl:mt-0 md:w-2/5 xl:w-2/6 md:mx-2
     }
+
+    .img-customer-card{
+        @apply flex  h-customer-card relative w-card mx-0 bg-secondary  mt-4 xl:mt-0 md:w-2/5 xl:w-2/6 md:mx-2
+    }
 }
 
 @layer utilities{
