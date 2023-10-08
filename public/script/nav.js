@@ -1,5 +1,6 @@
 $(document).ready(function () {
-   console.info("nav script : ok ")
+  
+  
     $(window).scroll(function () { 
      // add border bottom to nav when scoll top is over 28 
        if( $(window).scrollTop() > 28){
@@ -18,6 +19,21 @@ $(document).ready(function () {
 
        
     });
+
+
+       // display nav
+     $("#ShowNav-BTN").click(function (e) { 
+          $("#nav-links").removeClass("hidden");
+          $("#nav-links").addClass("flex");
+
+          
+     });
+
+     // hide nav
+     $("#Hide-BTN").click(function (e) { 
+          $("#nav-links").removeClass("flex");
+          $("#nav-links").addClass("hidden");
+     });
 
 
 

@@ -25,13 +25,22 @@
       <!--nav-->
       <nav
         id="nav"
-        class="container px-2 items-center justify-between pt-4 pb-1 fixed top-0 left-[50%] -translate-x-[50%] z-[999] md:flex"
+        class="container px-5 items-center justify-between  pt-6  pb-1 fixed top-0 left-[50%] -translate-x-[50%] z-[999] flex md:px-0 md:pt-4"
       >
         <!-- wbesite logo/name -->
-        <span id="logo" class="hidden md:flex">Host Beta</span>
+        <span id="logo" class="">Host Beta</span>
+
+        <!--  display nav  -->
+        <button id="ShowNav-BTN" class="text-white text-xl md:hidden hover:text-purple duration-200 ">
+          <i class="fa fa-list"></i>
+        </button>
 
         <!-- nav links-->
-        <ul class="flex items-center justify-center space-x-8">
+        <ul  id="nav-links" class="hidden  flex-col items-center justify-evenly font-bold    absolute top-0 left-0 w-screen h-screen  bg-primary  md:bg-transparent md:flex-row md:h-max md:w-max md:relative md:justify-center md:space-x-8 md:font-normal md:flex ">
+          <!-- hid nav btn-->
+          <button id="Hide-BTN" class="text-white text-xl md:hidden hover:text-purple duration-200 ">
+            <i class="fa-solid fa-circle-xmark"></i>
+          </button>
           <li>
             <a href="#home" class="hover:text-blue duration-200 cursor-pointer"
               >Home</a
@@ -1074,6 +1083,7 @@
       </div>
     </section>
 
-    <script src="./public/script/nav.js"></script>
+
+    <script src="public/script/nav.js"></script>
   </body>
 </html>
