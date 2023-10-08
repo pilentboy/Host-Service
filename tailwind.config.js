@@ -29,6 +29,7 @@ module.exports = {
         "large-card":"500px",
         "customer-card":"300px"
       }
+
     },
   },
   plugins: [],

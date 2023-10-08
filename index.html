@@ -17,6 +17,14 @@
 
     <!-- tailwind output css file -->
     <link rel="stylesheet" href="./public/css/style.css" />
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Prompt&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body class="overflow-x-hidden bg-primary">
@@ -25,20 +33,29 @@
       <!--nav-->
       <nav
         id="nav"
-        class="container px-5 items-center justify-between  pt-6  pb-1 fixed top-0 left-[50%] -translate-x-[50%] z-[999] flex md:px-0 md:pt-4"
+        class="container px-5 items-center justify-between pt-6 pb-1 fixed top-0 left-[50%] -translate-x-[50%] z-[999] flex md:px-0 md:pt-4"
       >
         <!-- wbesite logo/name -->
         <span id="logo" class="">Host Beta</span>
 
         <!--  display nav  -->
-        <button id="ShowNav-BTN" class="text-white text-xl md:hidden hover:text-purple duration-200 ">
+        <button
+          id="ShowNav-BTN"
+          class="text-white text-xl md:hidden hover:text-purple duration-200"
+        >
           <i class="fa fa-list"></i>
         </button>
 
         <!-- nav links-->
-        <ul  id="nav-links" class="-translate-y-full translate-x-0  duration-200 flex  flex-col items-center justify-evenly font-bold    absolute top-0 left-0 w-screen h-screen  bg-primary  md:bg-transparent md:-translate-y-0 md:flex-row md:h-max md:w-max md:relative md:justify-center md:space-x-8 md:font-normal md:flex ">
+        <ul
+          id="nav-links"
+          class="-translate-y-full translate-x-0 duration-200 flex flex-col items-center justify-evenly font-bold absolute top-0 left-0 w-screen h-screen bg-primary md:bg-transparent md:-translate-y-0 md:flex-row md:h-max md:w-max md:relative md:justify-center md:space-x-8 md:font-normal md:flex"
+        >
           <!-- hide nav btn-->
-          <button id="Hide-BTN" class="text-white text-xl md:hidden hover:text-purple duration-200 ">
+          <button
+            id="Hide-BTN"
+            class="text-white text-xl md:hidden hover:text-purple duration-200"
+          >
             <i class="fa-solid fa-circle-xmark"></i>
           </button>
           <li>
@@ -965,13 +982,12 @@
     </main>
 
     <!-- footer -->
-    <section id="footer" class="bg-primary h-max py-12 ">
-
+    <section id="footer" class="bg-primary h-max py-12">
       <div
-        class="container  flex flex-col  justify-between  xl:items-start xl:flex-row  mx-auto capitalize px-4 lg:px-0 md:my-0"
+        class="container flex flex-col justify-between xl:items-start xl:flex-row mx-auto capitalize px-4 lg:px-0 md:my-0"
       >
         <!-- social media link -->
-        <div class="flex flex-col xl:w-2/5 ">
+        <div class="flex flex-col xl:w-2/5">
           <!-- company name -->
           <h1 class="font-medium text-2xl text-white my-4">host beta</h1>
 
@@ -983,44 +999,34 @@
 
           <!-- links -->
           <div class="flex flex-wrap my-4">
-            <a
-              href="#"
-              class="social-media-link"
-              ><i class="fa-brands fa-instagram"></i></a
-            >
-            
-            <a
-              href="#"
-              class="social-media-link"
-              ><i class="fa-brands fa-twitter"></i></a
-            >
-            <a
-              href="#"
-              class="social-media-link"
-              ><i class="fa-brands fa-facebook"></i></a
-            >
-            <a
-              href="#"
-              class="social-media-link"
-              ><i class="fa-brands fa-youtube"></i></a
-            >
-            <a
-              href="#"
-              class="social-media-link"
-              ><i class="fa-brands fa-linkedin"></i></a
-            >
+            <a href="#" class="social-media-link"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+
+            <a href="#" class="social-media-link"
+              ><i class="fa-brands fa-twitter"></i
+            ></a>
+            <a href="#" class="social-media-link"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+            <a href="#" class="social-media-link"
+              ><i class="fa-brands fa-youtube"></i
+            ></a>
+            <a href="#" class="social-media-link"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
           </div>
         </div>
 
         <!-- other company links -->
-        <div class="lg:w-3/5   flex flex-col flex-wrap justify-between xl:justify-evenly md:flex-row xl:ms-5">
+        <div
+          class="lg:w-3/5 flex flex-col flex-wrap justify-between xl:justify-evenly md:flex-row xl:ms-5"
+        >
           <!-- first col-->
-          <div class="flex flex-col ">
+          <div class="flex flex-col">
             <h1 class="text-white my-3 font-medium text-2xl">get in touch</h1>
 
             <div class="flex flex-col my-2 space-y-2">
-             
-
               <div class="flex items-center">
                 <i class="fa fa-map-pin text-purple mr-2"></i>
                 <span class="text-gray-500 text-base">
@@ -1052,15 +1058,35 @@
           </div>
 
           <!-- second col-->
-          <div class="flex flex-col ">
+          <div class="flex flex-col">
             <h1 class="text-white my-3 font-medium text-2xl">quicklinks</h1>
 
             <div class="flex flex-col my-2 space-y-2">
-              <a href="#" class="text-gray-500 text-base hover:text-white duration-200">home</a>
-              <a href="#" class="text-gray-500 text-base hover:text-white duration-200">about</a>
-              <a href="#" class="text-gray-500 text-base hover:text-white duration-200">team</a>
-              <a href="#" class="text-gray-500 text-base hover:text-white duration-200">pricing</a>
-              <a href="#" class="text-gray-500 text-base hover:text-white duration-200">blog</a>
+              <a
+                href="#"
+                class="text-gray-500 text-base hover:text-white duration-200"
+                >home</a
+              >
+              <a
+                href="#"
+                class="text-gray-500 text-base hover:text-white duration-200"
+                >about</a
+              >
+              <a
+                href="#"
+                class="text-gray-500 text-base hover:text-white duration-200"
+                >team</a
+              >
+              <a
+                href="#"
+                class="text-gray-500 text-base hover:text-white duration-200"
+                >pricing</a
+              >
+              <a
+                href="#"
+                class="text-gray-500 text-base hover:text-white duration-200"
+                >blog</a
+              >
             </div>
           </div>
 
@@ -1069,22 +1095,40 @@
             <h1 class="text-white my-3 font-medium text-2xl">support</h1>
 
             <div class="flex flex-col my-2 space-y-2">
-              <a href="#" class="text-gray-500 text-base hover:text-white duration-200 ">help center</a>
+              <a
+                href="#"
+                class="text-gray-500 text-base hover:text-white duration-200"
+                >help center</a
+              >
 
-              <a href="#" class="text-gray-500 text-base hover:text-white duration-200">careers</a>
+              <a
+                href="#"
+                class="text-gray-500 text-base hover:text-white duration-200"
+                >careers</a
+              >
 
-              <a href="#" class="text-gray-500 text-base hover:text-white duration-200">FAQs</a>
+              <a
+                href="#"
+                class="text-gray-500 text-base hover:text-white duration-200"
+                >FAQs</a
+              >
 
-              <a href="#" class="text-gray-500 text-base hover:text-white duration-200">privacy policy</a>
+              <a
+                href="#"
+                class="text-gray-500 text-base hover:text-white duration-200"
+                >privacy policy</a
+              >
 
-              <a href="#" class="text-gray-500 text-base hover:text-white duration-200">contact</a>
+              <a
+                href="#"
+                class="text-gray-500 text-base hover:text-white duration-200"
+                >contact</a
+              >
             </div>
           </div>
         </div>
-
       </div>
     </section>
-
 
     <script src="public/script/nav.js"></script>
   </body>
