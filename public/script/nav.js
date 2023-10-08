@@ -23,16 +23,20 @@ $(document).ready(function () {
 
        // display nav
      $("#ShowNav-BTN").click(function (e) { 
-          $("#nav-links").removeClass("hidden");
-          $("#nav-links").addClass("flex");
+          $("#nav-links").removeClass("-translate-y-full");
+          $("#nav").removeClass("opacity-80");
+          $("#nav-links").addClass("translate-y-0");  
+          $("body").addClass("overflow-y-hidden");  
 
-          
+     
      });
 
      // hide nav
      $("#Hide-BTN").click(function (e) { 
-          $("#nav-links").removeClass("flex");
-          $("#nav-links").addClass("hidden");
+          $("#nav-links").removeClass("translate-y-0"); 
+          $("#nav-links").addClass("-translate-y-full");
+          $("body").removeClass("overflow-y-hidden");  
+          $("#nav").addClass("opacity-80");
      });
 
 
