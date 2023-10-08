@@ -1487,6 +1487,11 @@ video {
   color: rgb(23 20 32 / var(--tw-text-opacity));
 }
 
+.hover\:text-white:hover {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
 @media (min-width: 640px) {
   .sm\:my-\[80px\] {
     margin-top: 80px;
