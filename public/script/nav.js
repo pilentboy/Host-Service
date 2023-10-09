@@ -31,15 +31,31 @@ $(document).ready(function () {
      
      });
 
-     // hide nav
-     $("#Hide-BTN").click(function (e) { 
-          $("#nav-links").removeClass("translate-y-0"); 
-          $("#nav-links").addClass("-translate-y-full");
-          $("body").removeClass("overflow-y-hidden");  
-          $("#nav").addClass("opacity-80");
-     });
 
 
 
     
+     // hide nav 
+     function hideNav(){
+          $("#nav-links").removeClass("translate-y-0"); 
+          $("#nav-links").addClass("-translate-y-full");
+          $("body").removeClass("overflow-y-hidden");  
+          $("#nav").addClass("opacity-80");
+     }
+
+
+
+     $("#Hide-BTN").click(function (e) { 
+          hideNav()
+     });
+
+     // hide nav when nav link clicked
+     $("#nav-links li a").click(()=>{
+          hideNav()
+     })
+
+    
+
+  
 });
+
